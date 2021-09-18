@@ -40,7 +40,7 @@ class TimeLineViewController: UITableViewController {
         
         // cellの高さをAutoLayoutで構築するための設定。
         tableView.estimatedRowHeight = 44
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
     // MARK: - Table view data source
