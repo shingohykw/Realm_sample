@@ -193,10 +193,9 @@
 			};
 			buildConfigurationList = B85711651DDC4944007C7FF0 /* Build configuration list for PBXProject "TwitterTweet" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
