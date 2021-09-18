@@ -28,7 +28,7 @@ class TimeLineViewController: UITableViewController {
              TweetモデルはprimaryKeyがあり、重複して追加される可能性もあるため、
              updateをtrueにします。
              */
-            realm.add(tweet, update: true)
+            realm.add(tweet, update: .all)
         }
     }
     
