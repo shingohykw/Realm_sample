@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DdQ-qz-TK9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1sx-Az-emO">
+            <objects>
+                <viewController id="DdQ-qz-TK9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CD4-UX-bKf"/>
+                        <viewControllerLayoutGuide type="bottom" id="LKI-B8-OIv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="taI-oD-ajr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2017 Yu Sugawara. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="fNO-zI-1gD">
+                                <rect key="frame" x="20" y="626" width="336" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19.2 ツイートを表示する" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hY7-07-UqC">
+                                <rect key="frame" x="20" y="202" width="336" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fNO-zI-1gD" firstAttribute="leading" secondItem="taI-oD-ajr" secondAttribute="leading" constant="20" symbolic="YES" id="2gO-dT-Qmy"/>
+                            <constraint firstAttribute="centerX" secondItem="fNO-zI-1gD" secondAttribute="centerX" id="Dwj-ok-JBm"/>
+                            <constraint firstAttribute="centerX" secondItem="hY7-07-UqC" secondAttribute="centerX" id="LE4-lH-b8x"/>
+                            <constraint firstItem="hY7-07-UqC" firstAttribute="centerY" secondItem="taI-oD-ajr" secondAttribute="bottom" multiplier="1/3" constant="1" id="VXR-yB-D9k"/>
+                            <constraint firstItem="hY7-07-UqC" firstAttribute="leading" secondItem="taI-oD-ajr" secondAttribute="leading" constant="20" symbolic="YES" id="gGJ-J7-O3F"/>
+                            <constraint firstAttribute="bottom" secondItem="fNO-zI-1gD" secondAttribute="bottom" constant="20" id="pWh-aX-ZDf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jM-Ly-pFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
